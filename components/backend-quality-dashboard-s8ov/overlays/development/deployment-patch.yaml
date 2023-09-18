@@ -1,0 +1,17 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  name: backend-quality-dashboard-s8ov
+spec:
+  selector: {}
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+    spec:
+      containers:
+      - image: quay.io/redhat-appstudio-qe/rhtap-demo-vxsu-tenant/mc-quality-dashboard/backend-quality-dashboard-s8ov@sha256:d6a222757940a6ccc5e4bd2ae2fce6c34500355be31412e9ca468d15e0e16c9d
+        name: container-image
+        resources: {}
+status: {}
